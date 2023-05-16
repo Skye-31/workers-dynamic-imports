@@ -6,7 +6,7 @@
   },
   "private": true,
   "scripts": {
-    "start": "wrangler dev",
-    "deploy": "wrangler publish"
+    "start": "wrangler dev --no-bundle",
+    "deploy": "wrangler publish --no-bundle"
   }
 }
